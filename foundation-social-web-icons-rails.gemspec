@@ -18,6 +18,6 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  spec.add_development_dependency 'sass-rails'
-  spec.add_runtime_dependency 'sass', '~> 3.2'
+  s.add_development_dependency 'sass-rails'
+  s.add_runtime_dependency 'sass', '~> 3.2'
 end
